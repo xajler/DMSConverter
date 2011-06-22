@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D42F075B13B246A3008BB64E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42F075A13B246A3008BB64E /* Cocoa.framework */; };
+		D42F076513B246A3008BB64E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D42F076313B246A3008BB64E /* InfoPlist.strings */; };
+		D42F076713B246A3008BB64E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D42F076613B246A3008BB64E /* main.m */; };
+		D42F076B13B246A3008BB64E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D42F076913B246A3008BB64E /* Credits.rtf */; };
+		D42F076E13B246A3008BB64E /* DMSConverterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D42F076D13B246A3008BB64E /* DMSConverterAppDelegate.m */; };
+		D42F077113B246A3008BB64E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D42F076F13B246A3008BB64E /* MainMenu.xib */; };
+		D42F077913B246A3008BB64E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42F077813B246A3008BB64E /* SenTestingKit.framework */; };
+		D42F077A13B246A3008BB64E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42F075A13B246A3008BB64E /* Cocoa.framework */; };
+		D42F078213B246A3008BB64E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D42F078013B246A3008BB64E /* InfoPlist.strings */; };
+		D42F078413B246A3008BB64E /* DMSConverterTests.h in Resources */ = {isa = PBXBuildFile; fileRef = D42F078313B246A3008BB64E /* DMSConverterTests.h */; };
+		D42F078613B246A3008BB64E /* DMSConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D42F078513B246A3008BB64E /* DMSConverterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D42F077B13B246A3008BB64E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D42F074D13B246A3008BB64E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D42F075513B246A3008BB64E;
+			remoteInfo = DMSConverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D42F075613B246A3008BB64E /* DMSConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMSConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D42F075A13B246A3008BB64E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D42F075D13B246A3008BB64E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D42F075E13B246A3008BB64E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D42F075F13B246A3008BB64E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D42F076213B246A3008BB64E /* DMSConverter-Info.plist */ = {isa = PBXFileReference; path = "DMSConverter-Info.plist"; sourceTree = "<group>"; };
+		D42F076413B246A3008BB64E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D42F076613B246A3008BB64E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D42F076813B246A3008BB64E /* DMSConverter-Prefix.pch */ = {isa = PBXFileReference; path = "DMSConverter-Prefix.pch"; sourceTree = "<group>"; };
+		D42F076A13B246A3008BB64E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D42F076C13B246A3008BB64E /* DMSConverterAppDelegate.h */ = {isa = PBXFileReference; path = DMSConverterAppDelegate.h; sourceTree = "<group>"; };
+		D42F076D13B246A3008BB64E /* DMSConverterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMSConverterAppDelegate.m; sourceTree = "<group>"; };
+		D42F077013B246A3008BB64E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D42F077713B246A3008BB64E /* DMSConverterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMSConverterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D42F077813B246A3008BB64E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D42F077F13B246A3008BB64E /* DMSConverterTests-Info.plist */ = {isa = PBXFileReference; path = "DMSConverterTests-Info.plist"; sourceTree = "<group>"; };
+		D42F078113B246A3008BB64E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D42F078313B246A3008BB64E /* DMSConverterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMSConverterTests.h; sourceTree = "<group>"; };
+		D42F078513B246A3008BB64E /* DMSConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMSConverterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D42F075313B246A3008BB64E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42F075B13B246A3008BB64E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D42F077313B246A3008BB64E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42F077913B246A3008BB64E /* SenTestingKit.framework in Frameworks */,
+				D42F077A13B246A3008BB64E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D42F074B13B246A3008BB64E = {
+			isa = PBXGroup;
+			children = (
+				D42F076013B246A3008BB64E /* DMSConverter */,
+				D42F077D13B246A3008BB64E /* DMSConverterTests */,
+				D42F075913B246A3008BB64E /* Frameworks */,
+				D42F075713B246A3008BB64E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D42F075713B246A3008BB64E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D42F075613B246A3008BB64E /* DMSConverter.app */,
+				D42F077713B246A3008BB64E /* DMSConverterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D42F075913B246A3008BB64E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D42F075A13B246A3008BB64E /* Cocoa.framework */,
+				D42F077813B246A3008BB64E /* SenTestingKit.framework */,
+				D42F075C13B246A3008BB64E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D42F075C13B246A3008BB64E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D42F075D13B246A3008BB64E /* AppKit.framework */,
+				D42F075E13B246A3008BB64E /* CoreData.framework */,
+				D42F075F13B246A3008BB64E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D42F076013B246A3008BB64E /* DMSConverter */ = {
+			isa = PBXGroup;
+			children = (
+				D42F076C13B246A3008BB64E /* DMSConverterAppDelegate.h */,
+				D42F076D13B246A3008BB64E /* DMSConverterAppDelegate.m */,
+				D42F076F13B246A3008BB64E /* MainMenu.xib */,
+				D42F076113B246A3008BB64E /* Supporting Files */,
+			);
+			path = DMSConverter;
+			sourceTree = "<group>";
+		};
+		D42F076113B246A3008BB64E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D42F076213B246A3008BB64E /* DMSConverter-Info.plist */,
+				D42F076313B246A3008BB64E /* InfoPlist.strings */,
+				D42F076613B246A3008BB64E /* main.m */,
+				D42F076813B246A3008BB64E /* DMSConverter-Prefix.pch */,
+				D42F076913B246A3008BB64E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D42F077D13B246A3008BB64E /* DMSConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				D42F078313B246A3008BB64E /* DMSConverterTests.h */,
+				D42F078513B246A3008BB64E /* DMSConverterTests.m */,
+				D42F077E13B246A3008BB64E /* Supporting Files */,
+			);
+			path = DMSConverterTests;
+			sourceTree = "<group>";
+		};
+		D42F077E13B246A3008BB64E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D42F077F13B246A3008BB64E /* DMSConverterTests-Info.plist */,
+				D42F078013B246A3008BB64E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D42F075513B246A3008BB64E /* DMSConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D42F078913B246A3008BB64E /* Build configuration list for PBXNativeTarget "DMSConverter" */;
+			buildPhases = (
+				D42F075213B246A3008BB64E /* Sources */,
+				D42F075313B246A3008BB64E /* Frameworks */,
+				D42F075413B246A3008BB64E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DMSConverter;
+			productName = DMSConverter;
+			productReference = D42F075613B246A3008BB64E /* DMSConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D42F077613B246A3008BB64E /* DMSConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D42F078C13B246A3008BB64E /* Build configuration list for PBXNativeTarget "DMSConverterTests" */;
+			buildPhases = (
+				D42F077213B246A3008BB64E /* Sources */,
+				D42F077313B246A3008BB64E /* Frameworks */,
+				D42F077413B246A3008BB64E /* Resources */,
+				D42F077513B246A3008BB64E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D42F077C13B246A3008BB64E /* PBXTargetDependency */,
+			);
+			name = DMSConverterTests;
+			productName = DMSConverterTests;
+			productReference = D42F077713B246A3008BB64E /* DMSConverterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D42F074D13B246A3008BB64E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Metaintellect;
+			};
+			buildConfigurationList = D42F075013B246A3008BB64E /* Build configuration list for PBXProject "DMSConverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D42F074B13B246A3008BB64E;
+			productRefGroup = D42F075713B246A3008BB64E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D42F075513B246A3008BB64E /* DMSConverter */,
+				D42F077613B246A3008BB64E /* DMSConverterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D42F075413B246A3008BB64E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42F076513B246A3008BB64E /* InfoPlist.strings in Resources */,
+				D42F076B13B246A3008BB64E /* Credits.rtf in Resources */,
+				D42F077113B246A3008BB64E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D42F077413B246A3008BB64E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42F078213B246A3008BB64E /* InfoPlist.strings in Resources */,
+				D42F078413B246A3008BB64E /* DMSConverterTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D42F077513B246A3008BB64E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D42F075213B246A3008BB64E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42F076713B246A3008BB64E /* main.m in Sources */,
+				D42F076E13B246A3008BB64E /* DMSConverterAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D42F077213B246A3008BB64E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42F078613B246A3008BB64E /* DMSConverterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D42F077C13B246A3008BB64E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D42F075513B246A3008BB64E /* DMSConverter */;
+			targetProxy = D42F077B13B246A3008BB64E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D42F076313B246A3008BB64E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D42F076413B246A3008BB64E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D42F076913B246A3008BB64E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D42F076A13B246A3008BB64E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D42F076F13B246A3008BB64E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D42F077013B246A3008BB64E /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D42F078013B246A3008BB64E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D42F078113B246A3008BB64E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D42F078713B246A3008BB64E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D42F078813B246A3008BB64E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D42F078A13B246A3008BB64E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DMSConverter/DMSConverter-Prefix.pch";
+				INFOPLIST_FILE = "DMSConverter/DMSConverter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D42F078B13B246A3008BB64E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DMSConverter/DMSConverter-Prefix.pch";
+				INFOPLIST_FILE = "DMSConverter/DMSConverter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D42F078D13B246A3008BB64E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DMSConverter.app/Contents/MacOS/DMSConverter";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DMSConverter/DMSConverter-Prefix.pch";
+				INFOPLIST_FILE = "DMSConverterTests/DMSConverterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D42F078E13B246A3008BB64E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DMSConverter.app/Contents/MacOS/DMSConverter";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DMSConverter/DMSConverter-Prefix.pch";
+				INFOPLIST_FILE = "DMSConverterTests/DMSConverterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D42F075013B246A3008BB64E /* Build configuration list for PBXProject "DMSConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D42F078713B246A3008BB64E /* Debug */,
+				D42F078813B246A3008BB64E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D42F078913B246A3008BB64E /* Build configuration list for PBXNativeTarget "DMSConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D42F078A13B246A3008BB64E /* Debug */,
+				D42F078B13B246A3008BB64E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D42F078C13B246A3008BB64E /* Build configuration list for PBXNativeTarget "DMSConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D42F078D13B246A3008BB64E /* Debug */,
+				D42F078E13B246A3008BB64E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D42F074D13B246A3008BB64E /* Project object */;
+}

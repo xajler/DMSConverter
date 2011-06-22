@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'DMSConverter' target in the 'DMSConverter' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
