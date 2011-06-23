@@ -9,15 +9,12 @@
 #import <Foundation/Foundation.h>
 #import "ConverterConstants.h"
 #import "ConverterModel.h"
+#import "LatitudeDegreeValidator.h"
+#import "CustomTextField.h"
 
 @interface DMSConverterController : NSObject <NSTextFieldDelegate>
 {
-    IBOutlet NSTextField *dmsLatitudeDegrees;
-    IBOutlet NSTextField *dmsLatitudeMinutes;
-    IBOutlet NSTextField *dmsLatitudeSeconds;
-    IBOutlet NSTextField *dmsLongitudeDegrees;
-    IBOutlet NSTextField *dmsLongitudeMinutes;
-    IBOutlet NSTextField *dmsLongitudeSeconds; 
+
     IBOutlet NSTextField *degreeLatitude;
     IBOutlet NSTextField *degreeLongitude;
     
@@ -25,14 +22,21 @@
     IBOutlet NSMatrix *longitudeRadioGroup;
     
     ConverterModel *converter;
+    @private
+    CustomTextField *dmsLatitudeDegrees;
+    CustomTextField *dmsLatitudeMinutes;
+    CustomTextField *dmsLatitudeSeconds;
+    CustomTextField *dmsLongitudeDegrees;
+    CustomTextField *dmsLongitudeMinutes;
+    CustomTextField *dmsLongitudeSeconds;     
 }
 
-@property (retain, readwrite) IBOutlet NSTextField *dmsLatitudeDegrees;
-@property (retain, readwrite) IBOutlet NSTextField *dmsLatitudeMinutes;
-@property (retain, readwrite) IBOutlet NSTextField *dmsLatitudeSeconds;
-@property (retain, readwrite) IBOutlet NSTextField *dmsLongitudeDegrees;
-@property (retain, readwrite) IBOutlet NSTextField *dmsLongitudeMinutes;
-@property (retain, readwrite) IBOutlet NSTextField *dmsLongitudeSeconds; 
+@property (retain) IBOutlet CustomTextField *dmsLatitudeDegrees;
+@property (retain) IBOutlet CustomTextField *dmsLatitudeMinutes;
+@property (retain) IBOutlet CustomTextField *dmsLatitudeSeconds;
+@property (retain) IBOutlet CustomTextField *dmsLongitudeDegrees;
+@property (retain) IBOutlet CustomTextField *dmsLongitudeMinutes;
+@property (retain) IBOutlet CustomTextField *dmsLongitudeSeconds; 
 
 - (IBAction)convertDMSToDegree: (id)sender;
 - (NSString *) convertLatitude;

@@ -11,6 +11,7 @@
 @implementation DMSConverterAppDelegate
 
 @synthesize window = _window;
+@synthesize viewController;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {

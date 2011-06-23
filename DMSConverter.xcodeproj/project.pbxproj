@@ -11,6 +11,8 @@
 		D40F0F0613B3778000B9975E /* InputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = D40F0F0513B3778000B9975E /* InputValidator.m */; };
 		D40F0F0A13B37A6600B9975E /* LatitudeDegreeValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = D40F0F0913B37A6600B9975E /* LatitudeDegreeValidator.m */; };
 		D40F0F0D13B3846600B9975E /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D40F0F0C13B3846600B9975E /* CustomTextField.m */; };
+		D40F0F1413B3940300B9975E /* LongitudeDegreeValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = D40F0F1313B3940300B9975E /* LongitudeDegreeValidator.m */; };
+		D40F0F1713B3948E00B9975E /* MinuteSecondValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = D40F0F1613B3948E00B9975E /* MinuteSecondValidator.m */; };
 		D42F075B13B246A3008BB64E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42F075A13B246A3008BB64E /* Cocoa.framework */; };
 		D42F076513B246A3008BB64E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D42F076313B246A3008BB64E /* InfoPlist.strings */; };
 		D42F076713B246A3008BB64E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D42F076613B246A3008BB64E /* main.m */; };
@@ -45,6 +47,10 @@
 		D40F0F0913B37A6600B9975E /* LatitudeDegreeValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LatitudeDegreeValidator.m; sourceTree = "<group>"; };
 		D40F0F0B13B3846600B9975E /* CustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextField.h; sourceTree = "<group>"; };
 		D40F0F0C13B3846600B9975E /* CustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextField.m; sourceTree = "<group>"; };
+		D40F0F1213B3940300B9975E /* LongitudeDegreeValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongitudeDegreeValidator.h; sourceTree = "<group>"; };
+		D40F0F1313B3940300B9975E /* LongitudeDegreeValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LongitudeDegreeValidator.m; sourceTree = "<group>"; };
+		D40F0F1513B3948E00B9975E /* MinuteSecondValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinuteSecondValidator.h; sourceTree = "<group>"; };
+		D40F0F1613B3948E00B9975E /* MinuteSecondValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MinuteSecondValidator.m; sourceTree = "<group>"; };
 		D42F075613B246A3008BB64E /* DMSConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMSConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D42F075A13B246A3008BB64E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D42F075D13B246A3008BB64E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -128,6 +134,10 @@
 				D40F0F0913B37A6600B9975E /* LatitudeDegreeValidator.m */,
 				D40F0F0B13B3846600B9975E /* CustomTextField.h */,
 				D40F0F0C13B3846600B9975E /* CustomTextField.m */,
+				D40F0F1213B3940300B9975E /* LongitudeDegreeValidator.h */,
+				D40F0F1313B3940300B9975E /* LongitudeDegreeValidator.m */,
+				D40F0F1513B3948E00B9975E /* MinuteSecondValidator.h */,
+				D40F0F1613B3948E00B9975E /* MinuteSecondValidator.m */,
 			);
 			name = InputValidator;
 			sourceTree = "<group>";
@@ -340,6 +350,8 @@
 				D40F0F0613B3778000B9975E /* InputValidator.m in Sources */,
 				D40F0F0A13B37A6600B9975E /* LatitudeDegreeValidator.m in Sources */,
 				D40F0F0D13B3846600B9975E /* CustomTextField.m in Sources */,
+				D40F0F1413B3940300B9975E /* LongitudeDegreeValidator.m in Sources */,
+				D40F0F1713B3948E00B9975E /* MinuteSecondValidator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

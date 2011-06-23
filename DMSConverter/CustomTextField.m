@@ -28,6 +28,27 @@
     BOOL validationResult = [inputValidator validateInputForTextField: self 
                                                             withError: &error];
     
+    if (!validationResult)
+    {
+        [_window makeFirstResponder: self];
+        NSAlert *alert =
+        [NSAlert alertWithMessageText: [error localizedDescription]
+                        defaultButton: @"OK" 
+                      alternateButton: nil 
+                          otherButton: nil
+            informativeTextWithFormat: @"Huston we have a problem"];
+        [alert runModal];
+        
+        self.stringValue = @"";
+        
+//        NSAlert *alert = [[NSAlert alloc] init];
+//        [alert addButtonWithTitle:@"OK"];
+//        [alert setMessageText: [error localizedDescription]];
+//        [alert setInformativeText:@"Huston we have a problem"];
+//        [alert setAlertStyle:NSWarningAlertStyle];
+//        [alert beginSheetModalForWindow:_window modalDelegate:self didEndSelector:@selector(alertDidEnd:returnCode:contextInfo:) contextInfo:nil];
+    }
+    
     return validationResult;
 }
 

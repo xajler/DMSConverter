@@ -17,5 +17,5 @@
                   withMinutes: (NSInteger)minutes  
                   withSeconds: (NSInteger)seconds;
 
-- (BOOL) validateLatitudeDegrees: (NSInteger)degrees;
+//- (BOOL) validateLatitudeDegrees: (NSInteger)degrees;
 @end

@@ -69,11 +69,18 @@
     converter = [[ConverterModel alloc] init];
 }
 
-- (void)controlTextDidEndEditing:(NSNotification *)aNotification
+#pragma mark -
+#pragma mark NSTextFieldDelegate methods
+
+- (void)controlTextDidEndEditing: (NSNotification *)notification
 {
-    NSTextField *textField = [aNotification object];
+    NSTextField *textField = [notification object];
     
-    NSString *identifier = [textField identifier];
+    NSLog(@"Value of TextField: %d", [textField.stringValue length]);
+    
+    if ([textField isKindOfClass:[CustomTextField class]] && [textField.stringValue length] > 0) {
+        [(CustomTextField *)textField validate];
+    }
     
 //    NSTextView *fieldEditor = [[aNotification userInfo] objectForKey:@"NSFieldEditor"];
 //    if ([[textField window] firstResponder] == fieldEditor)

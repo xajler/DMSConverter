@@ -1341,6 +1341,7 @@
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{24, 7}, {413, 32}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView"/>
 							<string key="NSReuseIdentifierKey">_NS:1566</string>
 							<bool key="NSEnabled">YES</bool>
@@ -1369,6 +1370,7 @@
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{27, 177}, {92, 17}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="139245831"/>
 							<string key="NSReuseIdentifierKey">_NS:3946</string>
 							<bool key="NSEnabled">YES</bool>
@@ -1404,6 +1406,7 @@
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{27, 142}, {104, 17}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="702487358"/>
 							<string key="NSReuseIdentifierKey">_NS:3946</string>
 							<bool key="NSEnabled">YES</bool>
@@ -1423,6 +1426,7 @@
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{163, 172}, {43, 22}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="335817608"/>
 							<string key="NSReuseIdentifierKey">_NS:248</string>
 							<bool key="NSEnabled">YES</bool>
@@ -1457,6 +1461,7 @@
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{207, 180}, {14, 17}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="155627699"/>
 							<string key="NSReuseIdentifierKey">_NS:3946</string>
 							<bool key="NSEnabled">YES</bool>
@@ -1480,6 +1485,7 @@
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{231, 172}, {43, 22}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="182881577"/>
 							<string key="NSReuseIdentifierKey">_NS:248</string>
 							<bool key="NSEnabled">YES</bool>
@@ -1501,6 +1507,7 @@
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{274, 169}, {14, 28}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="364572000"/>
 							<string key="NSReuseIdentifierKey">_NS:3946</string>
 							<bool key="NSEnabled">YES</bool>
@@ -1520,6 +1527,7 @@
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{294, 172}, {43, 22}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="399400367"/>
 							<string key="NSReuseIdentifierKey">_NS:248</string>
 							<bool key="NSEnabled">YES</bool>
@@ -1541,6 +1549,7 @@
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{337, 169}, {14, 28}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="579184262"/>
 							<string key="NSReuseIdentifierKey">_NS:3946</string>
 							<bool key="NSEnabled">YES</bool>
@@ -1560,6 +1569,7 @@
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{163, 139}, {43, 22}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="715638200"/>
 							<string key="NSReuseIdentifierKey">_NS:248</string>
 							<bool key="NSEnabled">YES</bool>
@@ -1581,6 +1591,7 @@
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{207, 147}, {14, 17}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="625491748"/>
 							<string key="NSReuseIdentifierKey">_NS:3946</string>
 							<bool key="NSEnabled">YES</bool>
@@ -1600,6 +1611,7 @@
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{231, 139}, {43, 22}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="146982131"/>
 							<string key="NSReuseIdentifierKey">_NS:248</string>
 							<bool key="NSEnabled">YES</bool>
@@ -1621,6 +1633,7 @@
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{274, 136}, {14, 28}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="606284332"/>
 							<string key="NSReuseIdentifierKey">_NS:3946</string>
 							<bool key="NSEnabled">YES</bool>
@@ -1640,6 +1653,7 @@
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{294, 139}, {43, 22}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="659462432"/>
 							<string key="NSReuseIdentifierKey">_NS:248</string>
 							<bool key="NSEnabled">YES</bool>
@@ -1661,6 +1675,7 @@
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{337, 136}, {14, 28}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="823225"/>
 							<string key="NSReuseIdentifierKey">_NS:3946</string>
 							<bool key="NSEnabled">YES</bool>
@@ -1680,6 +1695,7 @@
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{361, 176}, {70, 18}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="837255768"/>
 							<string key="NSReuseIdentifierKey">_NS:266</string>
 							<bool key="NSEnabled">YES</bool>
@@ -1786,6 +1802,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{361, 141}, {70, 18}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="779189736"/>
 							<string key="NSReuseIdentifierKey">_NS:266</string>
 							<bool key="NSEnabled">YES</bool>
@@ -1887,6 +1904,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 							<int key="NSvFlags">12</int>
 							<string key="NSFrame">{{30, 124}, {393, 5}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="647590596"/>
 							<string key="NSReuseIdentifierKey">_NS:1459</string>
 							<string key="NSOffsets">{0, 0}</string>
@@ -1911,6 +1929,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{27, 99}, {109, 17}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="393855075"/>
 							<string key="NSReuseIdentifierKey">_NS:3946</string>
 							<bool key="NSEnabled">YES</bool>
@@ -1930,6 +1949,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{27, 69}, {121, 17}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="417484875"/>
 							<string key="NSReuseIdentifierKey">_NS:3946</string>
 							<bool key="NSEnabled">YES</bool>
@@ -1949,6 +1969,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{155, 99}, {204, 17}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="786835428"/>
 							<string key="NSReuseIdentifierKey">_NS:3946</string>
 							<bool key="NSEnabled">YES</bool>
@@ -1968,6 +1989,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{154, 69}, {205, 17}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="490919292"/>
 							<string key="NSReuseIdentifierKey">_NS:3946</string>
 							<bool key="NSEnabled">YES</bool>
@@ -1985,6 +2007,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 					</object>
 					<string key="NSFrameSize">{451, 214}</string>
 					<reference key="NSSuperview"/>
+					<reference key="NSWindow"/>
 					<reference key="NSNextKeyView" ref="210335132"/>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1440, 878}}</string>
@@ -2000,6 +2023,15 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 			</object>
 			<object class="NSCustomObject" id="604187209">
 				<string key="NSClassName">DMSConverterController</string>
+			</object>
+			<object class="NSCustomObject" id="883302270">
+				<string key="NSClassName">LatitudeDegreeValidator</string>
+			</object>
+			<object class="NSCustomObject" id="1000163723">
+				<string key="NSClassName">LongitudeDegreeValidator</string>
+			</object>
+			<object class="NSCustomObject" id="357530791">
+				<string key="NSClassName">MinuteSecondValidator</string>
 			</object>
 		</object>
 		<object class="IBObjectContainer" key="IBDocument.Objects">
@@ -2686,54 +2718,6 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 					<int key="connectionID">535</int>
 				</object>
 				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">dmsLatitudeDegrees</string>
-						<reference key="source" ref="604187209"/>
-						<reference key="destination" ref="139245831"/>
-					</object>
-					<int key="connectionID">581</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">dmsLatitudeMinutes</string>
-						<reference key="source" ref="604187209"/>
-						<reference key="destination" ref="155627699"/>
-					</object>
-					<int key="connectionID">582</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">dmsLatitudeSeconds</string>
-						<reference key="source" ref="604187209"/>
-						<reference key="destination" ref="364572000"/>
-					</object>
-					<int key="connectionID">583</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">dmsLongitudeDegrees</string>
-						<reference key="source" ref="604187209"/>
-						<reference key="destination" ref="702487358"/>
-					</object>
-					<int key="connectionID">584</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">dmsLongitudeMinutes</string>
-						<reference key="source" ref="604187209"/>
-						<reference key="destination" ref="625491748"/>
-					</object>
-					<int key="connectionID">585</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">dmsLongitudeSeconds</string>
-						<reference key="source" ref="604187209"/>
-						<reference key="destination" ref="606284332"/>
-					</object>
-					<int key="connectionID">586</int>
-				</object>
-				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
 						<string key="label">convertDMSToDegree:</string>
 						<reference key="source" ref="604187209"/>
@@ -2784,14 +2768,6 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">delegate</string>
-						<reference key="source" ref="139245831"/>
-						<reference key="destination" ref="604187209"/>
-					</object>
-					<int key="connectionID">621</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">delegate</string>
 						<reference key="source" ref="155627699"/>
 						<reference key="destination" ref="604187209"/>
 					</object>
@@ -2828,6 +2804,110 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 						<reference key="destination" ref="604187209"/>
 					</object>
 					<int key="connectionID">626</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">inputValidator</string>
+						<reference key="source" ref="702487358"/>
+						<reference key="destination" ref="1000163723"/>
+					</object>
+					<int key="connectionID">634</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">inputValidator</string>
+						<reference key="source" ref="155627699"/>
+						<reference key="destination" ref="357530791"/>
+					</object>
+					<int key="connectionID">635</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">inputValidator</string>
+						<reference key="source" ref="364572000"/>
+						<reference key="destination" ref="357530791"/>
+					</object>
+					<int key="connectionID">636</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">inputValidator</string>
+						<reference key="source" ref="625491748"/>
+						<reference key="destination" ref="357530791"/>
+					</object>
+					<int key="connectionID">637</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">inputValidator</string>
+						<reference key="source" ref="606284332"/>
+						<reference key="destination" ref="357530791"/>
+					</object>
+					<int key="connectionID">638</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">dmsLatitudeDegrees</string>
+						<reference key="source" ref="604187209"/>
+						<reference key="destination" ref="139245831"/>
+					</object>
+					<int key="connectionID">639</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">dmsLatitudeMinutes</string>
+						<reference key="source" ref="604187209"/>
+						<reference key="destination" ref="155627699"/>
+					</object>
+					<int key="connectionID">640</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">dmsLatitudeSeconds</string>
+						<reference key="source" ref="604187209"/>
+						<reference key="destination" ref="364572000"/>
+					</object>
+					<int key="connectionID">642</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">dmsLongitudeDegrees</string>
+						<reference key="source" ref="604187209"/>
+						<reference key="destination" ref="702487358"/>
+					</object>
+					<int key="connectionID">643</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">dmsLongitudeMinutes</string>
+						<reference key="source" ref="604187209"/>
+						<reference key="destination" ref="625491748"/>
+					</object>
+					<int key="connectionID">644</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">dmsLongitudeSeconds</string>
+						<reference key="source" ref="604187209"/>
+						<reference key="destination" ref="606284332"/>
+					</object>
+					<int key="connectionID">645</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">inputValidator</string>
+						<reference key="source" ref="139245831"/>
+						<reference key="destination" ref="883302270"/>
+					</object>
+					<int key="connectionID">646</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">delegate</string>
+						<reference key="source" ref="139245831"/>
+						<reference key="destination" ref="604187209"/>
+					</object>
+					<int key="connectionID">647</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -4005,7 +4085,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 							<reference ref="1069046557"/>
 						</object>
 						<reference key="parent" ref="439893737"/>
-						<string key="objectName">DMSLatitude</string>
+						<string key="objectName">DMSLatitudeSecond</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">551</int>
@@ -4034,6 +4114,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 							<reference ref="636995101"/>
 						</object>
 						<reference key="parent" ref="439893737"/>
+						<string key="objectName">DMSLongitudeDegree</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">555</int>
@@ -4052,6 +4133,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 							<reference ref="1059362042"/>
 						</object>
 						<reference key="parent" ref="439893737"/>
+						<string key="objectName">DMSLongitudeMinute</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">557</int>
@@ -4070,6 +4152,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 							<reference ref="939057996"/>
 						</object>
 						<reference key="parent" ref="439893737"/>
+						<string key="objectName">DMSLongitudeSecond</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">559</int>
@@ -4228,6 +4311,21 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 						<reference key="object" ref="1348292"/>
 						<reference key="parent" ref="823225"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">627</int>
+						<reference key="object" ref="883302270"/>
+						<reference key="parent" ref="0"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">628</int>
+						<reference key="object" ref="1000163723"/>
+						<reference key="parent" ref="0"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">629</int>
+						<reference key="object" ref="357530791"/>
+						<reference key="parent" ref="0"/>
+					</object>
 				</object>
 			</object>
 			<object class="NSMutableDictionary" key="flattenedProperties">
@@ -4382,28 +4480,34 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 					<string>539.IBPluginDependency</string>
 					<string>540.IBPluginDependency</string>
 					<string>541.IBPluginDependency</string>
+					<string>542.CustomClassName</string>
 					<string>542.IBAttributePlaceholdersKey</string>
 					<string>542.IBPluginDependency</string>
 					<string>542.userInterfaceItemIdentifier</string>
 					<string>543.IBPluginDependency</string>
 					<string>544.IBPluginDependency</string>
 					<string>545.IBPluginDependency</string>
+					<string>546.CustomClassName</string>
 					<string>546.IBPluginDependency</string>
 					<string>546.userInterfaceItemIdentifier</string>
 					<string>547.IBPluginDependency</string>
 					<string>548.IBPluginDependency</string>
 					<string>549.IBPluginDependency</string>
+					<string>550.CustomClassName</string>
 					<string>550.IBPluginDependency</string>
 					<string>550.userInterfaceItemIdentifier</string>
 					<string>551.IBPluginDependency</string>
 					<string>552.IBPluginDependency</string>
 					<string>553.IBPluginDependency</string>
+					<string>554.CustomClassName</string>
 					<string>554.IBPluginDependency</string>
 					<string>554.userInterfaceItemIdentifier</string>
 					<string>555.IBPluginDependency</string>
+					<string>556.CustomClassName</string>
 					<string>556.IBPluginDependency</string>
 					<string>556.userInterfaceItemIdentifier</string>
 					<string>557.IBPluginDependency</string>
+					<string>558.CustomClassName</string>
 					<string>558.IBPluginDependency</string>
 					<string>558.userInterfaceItemIdentifier</string>
 					<string>559.IBPluginDependency</string>
@@ -4434,6 +4538,9 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 					<string>608.IBPluginDependency</string>
 					<string>609.IBPluginDependency</string>
 					<string>610.IBPluginDependency</string>
+					<string>627.IBPluginDependency</string>
+					<string>628.IBPluginDependency</string>
+					<string>629.IBPluginDependency</string>
 					<string>72.IBPluginDependency</string>
 					<string>73.IBPluginDependency</string>
 					<string>74.IBPluginDependency</string>
@@ -4596,6 +4703,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>CustomTextField</string>
 					<object class="NSMutableDictionary">
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<reference key="dict.sortedKeys" ref="0"/>
@@ -4606,24 +4714,32 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>CustomTextField</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>DMSLatitudeMinute</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>CustomTextField</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>DMSLatitudeSecond</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>CustomTextField</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>DMSLongitudeDegree</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>CustomTextField</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>DMSLongitudeMinute</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>CustomTextField</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>DMSLongitudeSecond</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -4677,9 +4793,278 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 				<reference key="dict.values" ref="0"/>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">626</int>
+			<int key="maxID">647</int>
 		</object>
-		<object class="IBClassDescriber" key="IBDocument.Classes"/>
+		<object class="IBClassDescriber" key="IBDocument.Classes">
+			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
+				<bool key="EncodedWithXMLCoder">YES</bool>
+				<object class="IBPartialClassDescription">
+					<string key="className">CustomTextField</string>
+					<string key="superclassName">NSTextField</string>
+					<object class="NSMutableDictionary" key="outlets">
+						<string key="NS.key.0">inputValidator</string>
+						<string key="NS.object.0">InputValidator</string>
+					</object>
+					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<string key="NS.key.0">inputValidator</string>
+						<object class="IBToOneOutletInfo" key="NS.object.0">
+							<string key="name">inputValidator</string>
+							<string key="candidateClassName">InputValidator</string>
+						</object>
+					</object>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/CustomTextField.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">DMSConverterAppDelegate</string>
+					<string key="superclassName">NSObject</string>
+					<object class="NSMutableDictionary" key="outlets">
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<object class="NSArray" key="dict.sortedKeys">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>viewController</string>
+							<string>window</string>
+						</object>
+						<object class="NSMutableArray" key="dict.values">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>DMSConverterController</string>
+							<string>NSWindow</string>
+						</object>
+					</object>
+					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<object class="NSArray" key="dict.sortedKeys">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>viewController</string>
+							<string>window</string>
+						</object>
+						<object class="NSMutableArray" key="dict.values">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<object class="IBToOneOutletInfo">
+								<string key="name">viewController</string>
+								<string key="candidateClassName">DMSConverterController</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">window</string>
+								<string key="candidateClassName">NSWindow</string>
+							</object>
+						</object>
+					</object>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/DMSConverterAppDelegate.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">DMSConverterController</string>
+					<string key="superclassName">NSObject</string>
+					<object class="NSMutableDictionary" key="actions">
+						<string key="NS.key.0">convertDMSToDegree:</string>
+						<string key="NS.object.0">id</string>
+					</object>
+					<object class="NSMutableDictionary" key="actionInfosByName">
+						<string key="NS.key.0">convertDMSToDegree:</string>
+						<object class="IBActionInfo" key="NS.object.0">
+							<string key="name">convertDMSToDegree:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</object>
+					<object class="NSMutableDictionary" key="outlets">
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<object class="NSArray" key="dict.sortedKeys">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>degreeLatitude</string>
+							<string>degreeLongitude</string>
+							<string>dmsLatitudeDegrees</string>
+							<string>dmsLatitudeMinutes</string>
+							<string>dmsLatitudeSeconds</string>
+							<string>dmsLongitudeDegrees</string>
+							<string>dmsLongitudeMinutes</string>
+							<string>dmsLongitudeSeconds</string>
+							<string>latitudeRadioGroup</string>
+							<string>longitudeRadioGroup</string>
+						</object>
+						<object class="NSMutableArray" key="dict.values">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>NSTextField</string>
+							<string>NSTextField</string>
+							<string>CustomTextField</string>
+							<string>CustomTextField</string>
+							<string>CustomTextField</string>
+							<string>CustomTextField</string>
+							<string>CustomTextField</string>
+							<string>CustomTextField</string>
+							<string>NSMatrix</string>
+							<string>NSMatrix</string>
+						</object>
+					</object>
+					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<object class="NSArray" key="dict.sortedKeys">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>degreeLatitude</string>
+							<string>degreeLongitude</string>
+							<string>dmsLatitudeDegrees</string>
+							<string>dmsLatitudeMinutes</string>
+							<string>dmsLatitudeSeconds</string>
+							<string>dmsLongitudeDegrees</string>
+							<string>dmsLongitudeMinutes</string>
+							<string>dmsLongitudeSeconds</string>
+							<string>latitudeRadioGroup</string>
+							<string>longitudeRadioGroup</string>
+						</object>
+						<object class="NSMutableArray" key="dict.values">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<object class="IBToOneOutletInfo">
+								<string key="name">degreeLatitude</string>
+								<string key="candidateClassName">NSTextField</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">degreeLongitude</string>
+								<string key="candidateClassName">NSTextField</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">dmsLatitudeDegrees</string>
+								<string key="candidateClassName">CustomTextField</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">dmsLatitudeMinutes</string>
+								<string key="candidateClassName">CustomTextField</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">dmsLatitudeSeconds</string>
+								<string key="candidateClassName">CustomTextField</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">dmsLongitudeDegrees</string>
+								<string key="candidateClassName">CustomTextField</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">dmsLongitudeMinutes</string>
+								<string key="candidateClassName">CustomTextField</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">dmsLongitudeSeconds</string>
+								<string key="candidateClassName">CustomTextField</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">latitudeRadioGroup</string>
+								<string key="candidateClassName">NSMatrix</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">longitudeRadioGroup</string>
+								<string key="candidateClassName">NSMatrix</string>
+							</object>
+						</object>
+					</object>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/DMSConverterController.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">InputValidator</string>
+					<string key="superclassName">NSObject</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/InputValidator.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">LatitudeDegreeValidator</string>
+					<string key="superclassName">InputValidator</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/LatitudeDegreeValidator.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">LongitudeDegreeValidator</string>
+					<string key="superclassName">InputValidator</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/LongitudeDegreeValidator.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">MinuteSecondValidator</string>
+					<string key="superclassName">InputValidator</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/MinuteSecondValidator.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">NSDocument</string>
+					<object class="NSMutableDictionary" key="actions">
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<object class="NSArray" key="dict.sortedKeys">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>printDocument:</string>
+							<string>revertDocumentToSaved:</string>
+							<string>runPageLayout:</string>
+							<string>saveDocument:</string>
+							<string>saveDocumentAs:</string>
+							<string>saveDocumentTo:</string>
+						</object>
+						<object class="NSMutableArray" key="dict.values">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+						</object>
+					</object>
+					<object class="NSMutableDictionary" key="actionInfosByName">
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<object class="NSArray" key="dict.sortedKeys">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>printDocument:</string>
+							<string>revertDocumentToSaved:</string>
+							<string>runPageLayout:</string>
+							<string>saveDocument:</string>
+							<string>saveDocumentAs:</string>
+							<string>saveDocumentTo:</string>
+						</object>
+						<object class="NSMutableArray" key="dict.values">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<object class="IBActionInfo">
+								<string key="name">printDocument:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">revertDocumentToSaved:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">runPageLayout:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">saveDocument:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">saveDocumentAs:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">saveDocumentTo:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+						</object>
+					</object>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/NSDocument.h</string>
+					</object>
+				</object>
+			</object>
+		</object>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaFramework</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDevelopmentDependencies">

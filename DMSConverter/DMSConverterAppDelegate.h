@@ -8,10 +8,14 @@
 
 #import <Cocoa/Cocoa.h>
 
+@class DMSConverterController;
+
 @interface DMSConverterAppDelegate : NSObject <NSApplicationDelegate> {
     NSWindow *_window;
+    DMSConverterController *viewController;
 }
 
 @property (strong) IBOutlet NSWindow *window;
+@property (retain) IBOutlet DMSConverterController *viewController;
 
 @end
