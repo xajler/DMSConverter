@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D40F0F0313B3683C00B9975E /* ConverterConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = D40F0F0213B3683C00B9975E /* ConverterConstants.m */; };
+		D40F0F0613B3778000B9975E /* InputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = D40F0F0513B3778000B9975E /* InputValidator.m */; };
+		D40F0F0A13B37A6600B9975E /* LatitudeDegreeValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = D40F0F0913B37A6600B9975E /* LatitudeDegreeValidator.m */; };
+		D40F0F0D13B3846600B9975E /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D40F0F0C13B3846600B9975E /* CustomTextField.m */; };
 		D42F075B13B246A3008BB64E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42F075A13B246A3008BB64E /* Cocoa.framework */; };
 		D42F076513B246A3008BB64E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D42F076313B246A3008BB64E /* InfoPlist.strings */; };
 		D42F076713B246A3008BB64E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D42F076613B246A3008BB64E /* main.m */; };
@@ -18,6 +22,8 @@
 		D42F078213B246A3008BB64E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D42F078013B246A3008BB64E /* InfoPlist.strings */; };
 		D42F078413B246A3008BB64E /* DMSConverterTests.h in Resources */ = {isa = PBXBuildFile; fileRef = D42F078313B246A3008BB64E /* DMSConverterTests.h */; };
 		D42F078613B246A3008BB64E /* DMSConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D42F078513B246A3008BB64E /* DMSConverterTests.m */; };
+		D42F079413B2516C008BB64E /* DMSConverterController.m in Sources */ = {isa = PBXBuildFile; fileRef = D42F079313B2516C008BB64E /* DMSConverterController.m */; };
+		D42F079713B253B5008BB64E /* ConverterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D42F079613B253B5008BB64E /* ConverterModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,25 +37,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D40F0F0113B3683C00B9975E /* ConverterConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConverterConstants.h; sourceTree = "<group>"; };
+		D40F0F0213B3683C00B9975E /* ConverterConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConverterConstants.m; sourceTree = "<group>"; };
+		D40F0F0413B3778000B9975E /* InputValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputValidator.h; sourceTree = "<group>"; };
+		D40F0F0513B3778000B9975E /* InputValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputValidator.m; sourceTree = "<group>"; };
+		D40F0F0813B37A6600B9975E /* LatitudeDegreeValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LatitudeDegreeValidator.h; sourceTree = "<group>"; };
+		D40F0F0913B37A6600B9975E /* LatitudeDegreeValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LatitudeDegreeValidator.m; sourceTree = "<group>"; };
+		D40F0F0B13B3846600B9975E /* CustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextField.h; sourceTree = "<group>"; };
+		D40F0F0C13B3846600B9975E /* CustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextField.m; sourceTree = "<group>"; };
 		D42F075613B246A3008BB64E /* DMSConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMSConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D42F075A13B246A3008BB64E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D42F075D13B246A3008BB64E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		D42F075E13B246A3008BB64E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		D42F075F13B246A3008BB64E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D42F076213B246A3008BB64E /* DMSConverter-Info.plist */ = {isa = PBXFileReference; path = "DMSConverter-Info.plist"; sourceTree = "<group>"; };
+		D42F076213B246A3008BB64E /* DMSConverter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DMSConverter-Info.plist"; sourceTree = "<group>"; };
 		D42F076413B246A3008BB64E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D42F076613B246A3008BB64E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D42F076813B246A3008BB64E /* DMSConverter-Prefix.pch */ = {isa = PBXFileReference; path = "DMSConverter-Prefix.pch"; sourceTree = "<group>"; };
+		D42F076813B246A3008BB64E /* DMSConverter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DMSConverter-Prefix.pch"; sourceTree = "<group>"; };
 		D42F076A13B246A3008BB64E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		D42F076C13B246A3008BB64E /* DMSConverterAppDelegate.h */ = {isa = PBXFileReference; path = DMSConverterAppDelegate.h; sourceTree = "<group>"; };
+		D42F076C13B246A3008BB64E /* DMSConverterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMSConverterAppDelegate.h; sourceTree = "<group>"; };
 		D42F076D13B246A3008BB64E /* DMSConverterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMSConverterAppDelegate.m; sourceTree = "<group>"; };
 		D42F077013B246A3008BB64E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		D42F077713B246A3008BB64E /* DMSConverterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMSConverterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D42F077813B246A3008BB64E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		D42F077F13B246A3008BB64E /* DMSConverterTests-Info.plist */ = {isa = PBXFileReference; path = "DMSConverterTests-Info.plist"; sourceTree = "<group>"; };
+		D42F077F13B246A3008BB64E /* DMSConverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DMSConverterTests-Info.plist"; sourceTree = "<group>"; };
 		D42F078113B246A3008BB64E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D42F078313B246A3008BB64E /* DMSConverterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMSConverterTests.h; sourceTree = "<group>"; };
 		D42F078513B246A3008BB64E /* DMSConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMSConverterTests.m; sourceTree = "<group>"; };
+		D42F079213B2516C008BB64E /* DMSConverterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMSConverterController.h; sourceTree = "<group>"; };
+		D42F079313B2516C008BB64E /* DMSConverterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMSConverterController.m; sourceTree = "<group>"; };
+		D42F079513B253B5008BB64E /* ConverterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConverterModel.h; sourceTree = "<group>"; };
+		D42F079613B253B5008BB64E /* ConverterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConverterModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +91,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D40F0EFD13B3675200B9975E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D42F079513B253B5008BB64E /* ConverterModel.h */,
+				D42F079613B253B5008BB64E /* ConverterModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D40F0EFF13B367E700B9975E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D42F079213B2516C008BB64E /* DMSConverterController.h */,
+				D42F079313B2516C008BB64E /* DMSConverterController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D40F0F0013B3681500B9975E /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				D40F0F0713B37A3700B9975E /* InputValidator */,
+				D40F0F0113B3683C00B9975E /* ConverterConstants.h */,
+				D40F0F0213B3683C00B9975E /* ConverterConstants.m */,
+			);
+			name = Infrastructure;
+			sourceTree = "<group>";
+		};
+		D40F0F0713B37A3700B9975E /* InputValidator */ = {
+			isa = PBXGroup;
+			children = (
+				D40F0F0413B3778000B9975E /* InputValidator.h */,
+				D40F0F0513B3778000B9975E /* InputValidator.m */,
+				D40F0F0813B37A6600B9975E /* LatitudeDegreeValidator.h */,
+				D40F0F0913B37A6600B9975E /* LatitudeDegreeValidator.m */,
+				D40F0F0B13B3846600B9975E /* CustomTextField.h */,
+				D40F0F0C13B3846600B9975E /* CustomTextField.m */,
+			);
+			name = InputValidator;
+			sourceTree = "<group>";
+		};
 		D42F074B13B246A3008BB64E = {
 			isa = PBXGroup;
 			children = (
@@ -115,8 +174,7 @@
 		D42F076013B246A3008BB64E /* DMSConverter */ = {
 			isa = PBXGroup;
 			children = (
-				D42F076C13B246A3008BB64E /* DMSConverterAppDelegate.h */,
-				D42F076D13B246A3008BB64E /* DMSConverterAppDelegate.m */,
+				D42F07A013B3667D008BB64E /* Classes */,
 				D42F076F13B246A3008BB64E /* MainMenu.xib */,
 				D42F076113B246A3008BB64E /* Supporting Files */,
 			);
@@ -152,6 +210,18 @@
 				D42F078013B246A3008BB64E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D42F07A013B3667D008BB64E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D40F0F0013B3681500B9975E /* Infrastructure */,
+				D40F0EFF13B367E700B9975E /* Controllers */,
+				D40F0EFD13B3675200B9975E /* Models */,
+				D42F076C13B246A3008BB64E /* DMSConverterAppDelegate.h */,
+				D42F076D13B246A3008BB64E /* DMSConverterAppDelegate.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +334,12 @@
 			files = (
 				D42F076713B246A3008BB64E /* main.m in Sources */,
 				D42F076E13B246A3008BB64E /* DMSConverterAppDelegate.m in Sources */,
+				D42F079413B2516C008BB64E /* DMSConverterController.m in Sources */,
+				D42F079713B253B5008BB64E /* ConverterModel.m in Sources */,
+				D40F0F0313B3683C00B9975E /* ConverterConstants.m in Sources */,
+				D40F0F0613B3778000B9975E /* InputValidator.m in Sources */,
+				D40F0F0A13B37A6600B9975E /* LatitudeDegreeValidator.m in Sources */,
+				D40F0F0D13B3846600B9975E /* CustomTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +513,7 @@
 				D42F078B13B246A3008BB64E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D42F078C13B246A3008BB64E /* Build configuration list for PBXNativeTarget "DMSConverterTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +522,7 @@
 				D42F078E13B246A3008BB64E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
