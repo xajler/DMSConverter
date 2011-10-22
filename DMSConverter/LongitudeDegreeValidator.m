@@ -7,6 +7,7 @@
 //
 
 #import "LongitudeDegreeValidator.h"
+#import "ConverterConstants.h"
 
 @implementation LongitudeDegreeValidator
 
@@ -25,20 +26,19 @@
 {
     NSInteger degree = textField.integerValue;
     
-    if (degree >= 0 && degree <= 180) {
-        return YES;
-    }
-    else
+    if (degree >= 0 && degree <= 180) return YES;
+        
+    if (*outError == NULL) 
     {
-        NSDictionary *errorInfo = 
-        [NSDictionary dictionaryWithObject: @"Incorect Longitude: Longitude degree must be between 0 and 180" 
-                                    forKey:NSLocalizedDescriptionKey];
-        *outError = [NSError errorWithDomain: @"LongitudeDegreeValidator" 
-                                        code: 101
+        NSDictionary *errorInfo = [NSDictionary dictionaryWithObject: IncorrectLongitudeDegreeMessage 
+                                                              forKey: NSLocalizedDescriptionKey];
+        
+        *outError = [NSError errorWithDomain: LongitudeDegreeValidatorTitle
+                                        code: LongitudeDegreeValidatorCode
                                     userInfo: errorInfo];
-        return NO;
     }
-    
+        
+    return NO;
 }
 
 @end

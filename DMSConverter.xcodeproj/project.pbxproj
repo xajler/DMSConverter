@@ -146,7 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				D42F076013B246A3008BB64E /* DMSConverter */,
-				D42F077D13B246A3008BB64E /* DMSConverterTests */,
+				D42F077D13B246A3008BB64E /* Tests */,
 				D42F075913B246A3008BB64E /* Frameworks */,
 				D42F075713B246A3008BB64E /* Products */,
 			);
@@ -203,13 +203,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D42F077D13B246A3008BB64E /* DMSConverterTests */ = {
+		D42F077D13B246A3008BB64E /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				D42F078313B246A3008BB64E /* DMSConverterTests.h */,
 				D42F078513B246A3008BB64E /* DMSConverterTests.m */,
 				D42F077E13B246A3008BB64E /* Supporting Files */,
 			);
+			name = Tests;
 			path = DMSConverterTests;
 			sourceTree = "<group>";
 		};

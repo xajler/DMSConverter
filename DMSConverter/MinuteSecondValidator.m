@@ -7,6 +7,7 @@
 //
 
 #import "MinuteSecondValidator.h"
+#import "ConverterConstants.h"
 
 @implementation MinuteSecondValidator
 
@@ -25,19 +26,19 @@
 {
     NSInteger degree = textField.integerValue;
     
-    if (degree >= 0 && degree <= 60) {
-        return YES;
-    }
-    else
+    if (degree >= 0 && degree <= 60) return YES;
+    
+    if (*outError == NULL)
     {
-        NSDictionary *errorInfo = 
-        [NSDictionary dictionaryWithObject: @"Incorect Minutes or Seconds: Minutes or Seconds must be between 0 and 60" 
-                                    forKey:NSLocalizedDescriptionKey];
-        *outError = [NSError errorWithDomain: @"MinuteSecondValidator" 
-                                        code: 102
+        NSDictionary *errorInfo = [NSDictionary dictionaryWithObject: IncorrectLMinuteSecondMessage
+                                                              forKey: NSLocalizedDescriptionKey];
+        
+        *outError = [NSError errorWithDomain: MinuteSecondValidatorTitle 
+                                        code: MinuteSecondValidatorCode
                                     userInfo: errorInfo];
-        return NO;
-    }    
+    }
+    
+    return NO;
 }
 
 @end

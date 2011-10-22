@@ -7,6 +7,7 @@
 //
 
 #import "LatitudeDegreeValidator.h"
+#import "ConverterConstants.h"
 
 @implementation LatitudeDegreeValidator
 
@@ -26,19 +27,19 @@
 {
     NSInteger degree = textField.integerValue;
     
-    if (degree >= 0 && degree <= 90) {
-        return YES;
-    }
-    else
+    if (degree >= 0 && degree <= 90) return YES;
+    
+    if (*outError == NULL)
     {
-        NSDictionary *errorInfo = 
-                [NSDictionary dictionaryWithObject: @"Incorect Latitude: Latitude degree must be between 0 and 90" 
-                                            forKey:NSLocalizedDescriptionKey];
-        *outError = [NSError errorWithDomain: @"LatitudeValidator" 
-                                        code: 100 
-                                    userInfo: errorInfo];
-        return NO;
+        NSDictionary *errorInfo = [NSDictionary dictionaryWithObject: IncorrectLatitudeDegreeMessage 
+                                                              forKey: NSLocalizedDescriptionKey];
+        
+        *outError = [NSError errorWithDomain: LatitudeDegreeValidatorTitle
+                                        code: LatitudeDegreeValidatorCode 
+                                    userInfo: errorInfo];   
     }
+
+    return NO;
 }
 
 @end

@@ -74,9 +74,7 @@
 
 - (void)controlTextDidEndEditing: (NSNotification *)notification
 {
-    NSTextField *textField = [notification object];
-    
-    NSLog(@"Value of TextField: %d", [textField.stringValue length]);
+    NSTextField *textField = [notification object];    
     
     if ([textField isKindOfClass:[CustomTextField class]] && [textField.stringValue length] > 0) {
         [(CustomTextField *)textField validate];

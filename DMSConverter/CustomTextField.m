@@ -24,7 +24,7 @@
 
 - (BOOL) validate
 {
-    NSError *error = nil;
+    NSError *error;
     BOOL validationResult = [inputValidator validateInputForTextField: self 
                                                             withError: &error];
     

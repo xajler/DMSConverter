@@ -12,7 +12,7 @@
 @interface CustomTextField : NSTextField
 {
     @private
-    InputValidator *inputValidator_;
+    InputValidator *inputValidator;
 }
 
 @property (retain) IBOutlet InputValidator *inputValidator;
